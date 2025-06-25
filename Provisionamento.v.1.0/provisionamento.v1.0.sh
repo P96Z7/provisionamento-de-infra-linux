@@ -64,7 +64,7 @@ add_user(){
 #-----------MENUS (GRUPOS)-------------#
 
 menu_grp(){
-echo "Escolha a primeira pasta do escritório do sistema "
+echo "Selecione a pasta a ser criada"
 select opt in "Administrativo" "Segurança" "Vendas" "Contabilidade" "Finalizar" ; do
 	case $opt in
   	 "Administrativo") grp_adm ;  menu_grp ;;
